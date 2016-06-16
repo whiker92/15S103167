@@ -112,7 +112,7 @@ public class TransFilePanel extends JPanel {
     }
 
     public void jbtnCannel_actionPerformed(ActionEvent e) {
-        if(jbtnCannel.getText().equals("cancel")){
+        if(jbtnCannel.getText().equals("c")){
             isCanneled=true;
         }
         else{
